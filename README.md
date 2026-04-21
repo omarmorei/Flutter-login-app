@@ -1,17 +1,55 @@
-# logine_app
+# 🔐 Flutter Login App
 
-A new Flutter project.
+تطبيق تسجيل دخول بسيط باستخدام Flutter يوضح التحقق من صحة المدخلات (Validation) والتنقل بين الشاشات.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- التحقق من الحقول الفارغة
+- التحقق من صحة الإيميل
+- عرض رسالة خطأ عند بيانات خاطئة
+- الانتقال إلى صفحة Home عند تسجيل الدخول الصحيح
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+### 🧪 Empty Fields Validation
+
+![Empty Fields](images/login_empty_fields.jpg)
+
+### ❌ Invalid Email
+
+![Invalid Email](images/login_invalid_email.jpg)
+
+### 🚫 Wrong Credentials
+
+![Wrong Credentials](images/login_wrong_credentials.jpg)
+
+### ✅ Successful Login (Home Screen)
+
+![Home](images/home_after_login.jpg)
+
+---
+
+## 🛠️ Technologies Used
+
+* Flutter
+* Dart
+
+
+
+## ▶️ How to Run
+
+
+flutter pub get
+flutter run
+
+
+
+## 📌 Notes
+
+هذا المشروع تعليمي لتوضيح أساسيات:
+
+* Form Validation
